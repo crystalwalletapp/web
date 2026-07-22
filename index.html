@@ -106,7 +106,7 @@
   .hero-note .avatars span{width:24px;height:24px;border-radius:50%;border:2px solid var(--bg);background:linear-gradient(135deg, var(--teal), var(--amber));margin-left:-8px;}
   .hero-note .avatars span:first-child{margin-left:0;}
 
-  .phone-stage{position:relative;height:560px;display:flex;align-items:center;justify-content:center;overflow:hidden;}
+  .phone-stage{position:relative;height:calc(min(248px, 58vw) * 2.28 + 60px);display:flex;align-items:center;justify-content:center;overflow-x:hidden;}
   .phone{position:absolute;width:min(248px, 58vw);border-radius:34px;background:#05070a;border:1px solid var(--glass-border-strong);padding:4px;box-shadow:0 30px 60px -20px rgba(0,0,0,0.7);}
   .phone .screen{border-radius:35px;overflow:hidden;background:#0d1219;}
   .phone .screen img{width:100%;display:block;}
@@ -233,7 +233,7 @@
     .nav-toggle{display:flex;}
 
     .hero-grid{grid-template-columns:1fr;}
-    .phone-stage{height:340px;margin-top:36px;}
+    .phone-stage{margin-top:36px;}
     .features-grid{grid-template-columns:1fr;}
     .showcase-grid{grid-template-columns:1fr;max-width:320px;margin:0 auto;}
     .how-grid{grid-template-columns:1fr;}
@@ -247,7 +247,7 @@
   @media (max-width: 480px){
     .wrap{padding:0 18px;}
     .hero{padding-top:36px;}
-    .phone-stage{height:280px;margin-top:28px;}
+    .phone-stage{margin-top:28px;}
     .hero-ctas .btn{flex:1;}
     .platform-pills label{font-size:12px;padding:9px 4px;}
     .support-card{padding:24px 18px;}
